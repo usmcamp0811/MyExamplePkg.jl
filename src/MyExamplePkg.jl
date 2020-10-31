@@ -1,5 +1,8 @@
 module MyExamplePkg
 
-# Write your package code here.
+greet() = println("Hello")
+
+include("extra_file.jl")
+export my_f
 
 end
